@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.myapplication.Natural">
-
+    tools:context="com.example.myapplication.GrainFree">
 
     <TextView
         android:id="@+id/textView1"
@@ -16,7 +15,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:background="?android:attr/textColorHighlightInverse"
-        android:text="Natural balance"
+        android:text="Grain Free"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -52,9 +51,9 @@
         android:layout_width="289dp"
         android:layout_height="169dp"
         android:layout_gravity = "center_horizontal"
-        android:drawableLeft="@drawable/natural"
+        android:drawableLeft="@drawable/nutrena1"
         android:drawablePadding="5dp"
-        android:text="Sweet potato, Salmon / 1.36kg"
+        android:text="Adult Chicken / 2.1kg"
         app:layout_constraintTop_toTopOf="@+id/guideline8"
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
@@ -67,9 +66,9 @@
         android:layout_width="289dp"
         android:layout_height="169dp"
         android:layout_gravity = "center_horizontal"
-        android:drawableLeft="@drawable/natural2"
+        android:drawableLeft="@drawable/acana1"
         android:drawablePadding="5dp"
-        android:text="Chicken, Sweet potato / 170g"
+        android:text="small brid/ 2kg"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
@@ -84,6 +83,5 @@
         android:id="@+id/guideline13"
         app:layout_constraintGuide_begin="240dp"
         android:orientation="horizontal" />
-
 
 </android.support.constraint.ConstraintLayout>

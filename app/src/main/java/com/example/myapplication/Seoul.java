@@ -8,31 +8,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-//(function) -> natural balance 화면
-public class Natural extends AppCompatActivity {
+public class Seoul extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_natural);
+        setContentView(R.layout.activity_seoul);
 
         TextView textView1 = (TextView)findViewById(R.id.textView1);
         textView1.setTextColor(Color.parseColor("#0B614B"));
 
         Button button1 = (Button)findViewById(R.id.button1);
-        Button button2 = (Button)findViewById(R.id.button2);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Natural.this, Main2Activity.class);
-                startActivity(intent);
-            }
-        });
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Natural.this, Main2Activity.class);
+                Intent intent = new Intent(Seoul.this, Main2Activity.class);
                 startActivity(intent);
             }
         });
